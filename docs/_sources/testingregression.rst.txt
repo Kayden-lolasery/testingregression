@@ -1,0 +1,7 @@
+testingregression module
+========================
+
+.. automodule:: testingregression
+   :members:
+   :undoc-members:
+   :show-inheritance:
