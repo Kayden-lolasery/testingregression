@@ -2,7 +2,7 @@
     "logging":{
         
         "logBase" : "testingregression",
-        "level"   : "INFO",
+        "level"   : "severe",
         "specs"   : {
 
             "file":{

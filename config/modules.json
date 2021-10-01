@@ -2,15 +2,15 @@
     {
         "moduleName" : "module1",
         "path"       : "modules/module1/module1.py",
-        "execute"    : true,
+        "execute"    : false,
         "description": "a simple example module",
         "owner"      : ""
     }, {
-        "moduleName": "bayTune",
-        "path": "modules/bayTune/bayTune.py",
-        "execute": false,
+        "moduleName" : "bayTune",
+        "path"       : "modules/bayTune/bayTune.py",
+        "execute"    : false,
         "description": "a simple example module",
-        "owner": ""
+        "owner"      : ""
     }, {
         "moduleName" : "versionedModule",
         "path"       : "modules/versionedModule/versionedModule.py",
@@ -23,5 +23,30 @@
         "execute"    : false,
         "description": "",
         "owner"      : ""
+    }, {
+        "moduleName" : "cleaning",
+        "path"       : "modules/clean_or_rename_columns/cleaning.py",
+        "execute"    : false,
+        "description": "cleaning the file &/or dataframe",
+        "owner"      : "Kayden"
+    }, {
+        "moduleName" : "EDA",
+        "path"       : "modules/EDA/EDA.py",
+        "execute"    : false,
+        "description": "EDA for model",
+        "owner"      : "Kayden"
+    }, {
+        "moduleName" : "ML",
+        "path"       : "modules/ML/ML.py",
+        "execute"    : true,
+        "description": "Machine learning for Linear regression",
+        "owner"      : "Kayden"
+    }, {
+        "moduleName" : "module2",
+        "path"       : "modules/module2/module2.py",
+        "execute"    : false,
+        "description": "posgresSQL querying",
+        "owner"      : "Kayden"
     }
+
 ]
