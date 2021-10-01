@@ -1,0 +1,27 @@
+{"read_csv":
+	"/Users/kiathaolim93/testingregression/data/raw_data/dataset_rossi.csv",
+"to_csv":
+	"data/intermediate/cleaned.csv",
+"rename":
+	{"race":"race_black1_white0_BINARY",
+                   "arrest":"arrest_BINARY",
+                   "fin"   :"financial_support_BINARY",
+                   "wexp"  :"work_exp_BINARY",
+                   "mar"   :"married_BINARY",
+                   "paro"  :"parolee_BINARY",
+                   "prio"  :"previous_convictions"},
+"drop":
+	"Unnamed: 0",
+
+"rearrange":
+	["week","age","previous_convictions",
+    "arrest_BINARY","financial_support_BINARY",
+    "race_black1_white0_BINARY", "work_exp_BINARY",
+    "married_BINARY","parolee_BINARY"],
+"train_test_split":
+	{"columns"  	 :"age",
+	 "axis"     	 : 1,
+	 "test_size"	 : 0.3,
+	 "random_state"  : 0,
+	 "variable_names": ["X_train", "X_test", "y_train", "y_test"]}
+}

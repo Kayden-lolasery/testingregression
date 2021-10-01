@@ -1,0 +1,6 @@
+{"to_csv":
+	"../data/intermediate/cleaned.csv",
+"rel_path":
+	"../results/descriptive.txt",
+"pandas_profiling":
+	"../results/EDA/data_summary.html"}

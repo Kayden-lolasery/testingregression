@@ -1,0 +1,8 @@
+{"read_csv":
+	"..data/intermediate/cleaned.csv",
+"savetext":
+	"../data/intermediate/y_pred.csv",
+"pickle_filename"
+	:"../data/final/logistic_regression_fitted.sav",
+"rel_path":
+	"../results/EDA.png"}
